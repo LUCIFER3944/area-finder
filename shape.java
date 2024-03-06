@@ -27,7 +27,7 @@ class Square extends Shape1 {
         this.sideLength = sideLength;
     }
 
-    @Override
+  
     double area() {
         return Math.pow(sideLength, 2);
     }
@@ -43,7 +43,7 @@ class Rectangle extends Shape1 {
         this.width = width;
     }
 
-    @Override
+  
     double area() {
         return length * width;
     }
@@ -57,7 +57,7 @@ class Cube extends Shape1 {
         this.sideLength = sideLength;
     }
 
-    @Override
+   
     double area() {
         return 6 * Math.pow(sideLength, 2);
     }
